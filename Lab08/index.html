@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 10px; 
+            max-width: 800px;
+            margin: auto;
+        }
+        .nested {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%; 
+            height: auto; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="nested">
+        <img src="https://static.thairath.co.th/media/Dtbezn3nNUxytg04ajZ4pAwVBkp5fyhUQ4WJIEdJ28ymvP.webp" alt="Image 1">
+        <img src="https://images.freshop.ncrcloud.com/5194931/7f5a7f5303d95dd3ab8ceef7ba3059c8_large.png" alt="Image 2">
+        <img src="https://www.prachachat.net/wp-content/uploads/2024/06/KFC-Skytrain-Branch.png" alt="Image 3">
+    </div>
+    <div class="nested">
+        <img src="https://www.davidmorgan.com/shop/images/366blk_lg6.jpg" alt="Image 4">
+        <img src="https://img.olympics.com/images/image/private/t_16-9_640/f_auto/v1538355600/primary/ywjjv6pml5diu5cwid21" alt="Image 5">
+        <img src="https://iscale.iheart.com/catalog/artist/32563473" alt="Image 6">
+    </div>
+    <div class="nested">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1337313071592640552/image0.jpg?ex=67aaf1da&is=67a9a05a&hm=a63544c0a0892e63f289c0c2d32683ef6e542991a926f961177a8374efdea058&=&format=webp&width=263&height=468" alt="Image 7">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1337313189540663367/image0.jpg?ex=67aaf1f6&is=67a9a076&hm=005d04a44391b46e87285d36c2de411bdf9ff5bfc0db0577d343ffbeb4e4eb79&=&format=webp" alt="Image 8">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1337313322709553236/image1.jpg?ex=67aaf216&is=67a9a096&hm=6e31b9e0f320e07977a34ce409400c4601838db431f53e6c7107e9a302f9a29b&=&format=webp" alt="Image 9">
+    </div>
+    <div class="nested">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1336709964684726344/GiPYhHLXsAAm7Bd.png?ex=67aaba6a&is=67a968ea&hm=d4eb4f3542397e2b160bc24e4fee7104c7f4c4b4552da76a175723ade3596d0b&=&format=webp&quality=lossless&width=375&height=469" alt="Image 10">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1336188710365958144/FB_IMG_1738633196853.jpg?ex=67aacf35&is=67a97db5&hm=1b955dc28fdb33186024c34f3d3c398a1095e4bddc96b955f81935cd2adffcd8&=&format=webp" alt="Image 11">
+        <img src="https://media.discordapp.net/attachments/964725633261379596/1335929195888381984/FB_IMG_1724647986973.jpg?ex=67aa8644&is=67a934c4&hm=6784bc30c0e93f6d4f1f44fb9d01665bff24618c859e88aec4822a7d5284c1dc&=&format=webp&width=469&height=469" alt="Image 12">
+    </div>
+</div>
+
+</body>
+</html>
