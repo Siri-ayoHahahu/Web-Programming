@@ -3,7 +3,7 @@ require_once("database.php");
 
 class Menu extends DataMapper
 {
-    public $table = "menus";
+    public $table = "manus";
     public $pk = "menu_id";
     public $fields = ['menu_name', 'price'];
 
